@@ -34,7 +34,6 @@ import { AskKakBintangModal } from './components/AskKakBintangModal';
 import { JournalHistoryModal } from './components/JournalHistoryModal';
 import { CertificateModal } from './components/CertificateModal';
 import { VoiceSettingsModal } from './components/VoiceSettingsModal';
-import { TeacherDashboard } from './components/TeacherDashboard';
 import TeacherMenu from './components/TeacherMenu';
 import { ParentDashboard } from './components/ParentDashboard';
 import { AdminDashboard } from './components/AdminDashboard';
@@ -673,7 +672,6 @@ export default function App() {
 
           {/* Subtab Render */}
           {teacherSubTab === 'VERIFIKASI' ? (
-            <TeacherDashboard
               records={journalRecords}
               onUpdateRecord={handleUpdateRecord}
               onSwitchToStudentMode={() => handleSwitchRole('SISWA')}
