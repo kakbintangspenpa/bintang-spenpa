@@ -1,0 +1,6 @@
+{
+  "name": "Kak Bintang - Jurnal 7 Kebiasaan Anak Indonesia Hebat",
+  "description": "Asisten pembina karakter ramah dan inspiratif yang menganalisis jurnal harian 7 Kebiasaan Anak Indonesia Hebat, memberikan pujian edukatif, dan menilai validitas aktivitas anak secara positif.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
